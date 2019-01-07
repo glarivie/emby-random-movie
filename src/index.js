@@ -1,7 +1,7 @@
 const axios = require('axios')
 const random = require('lodash.random')
 const get = require('lodash.get')
-const { log, error } = require('console')
+const { log } = require('console')
 
 const { ticksToMinutes, humanize } = require('./time')
 
