@@ -1,0 +1,25 @@
+{
+  "name": "emby-random-movie",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:hqro/emby-random-movie.git",
+  "author": "Guillaume L. <guillaume@skillup.co>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node src/index.js",
+    "lint": "eslint -c .eslintrc src",
+    "test": "NODE_ENV=test jest --env=node --verbose --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "lodash.get": "^4.4.2",
+    "lodash.random": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}
